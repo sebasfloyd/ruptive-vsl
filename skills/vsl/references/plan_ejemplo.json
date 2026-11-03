@@ -1,0 +1,31 @@
+{
+  "nombre": "vsl_ejemplo",
+  "voz": "",
+  "modelo": "eleven_multilingual_v2",
+  "marca": {
+    "nombre": "Tu Marca",
+    "color": "#f56300",
+    "color2": "#ff8a3d",
+    "producto": "Tu [oferta]",
+    "partes": ["Qué es", "Cómo funciona", "Tus dudas", "Cómo empezar"],
+    "logosTitulo": "Empresas que trabajaron con nosotros",
+    "comparar": ["Por tu cuenta", "Con nosotros"]
+  },
+  "escenas": [
+    { "b": "intro", "type": "text", "bg": "dark", "vo": "Si tenés un comercio con local y venta online, esto es para vos.", "show": "Comercios con [local y venta online]." },
+    { "b": "intro", "type": "text", "bg": "dark", "vo": "Te voy a mostrar cómo responder todas las consultas en menos de cinco minutos.", "show": "Todas las consultas en [menos de 5 minutos]." },
+    { "b": "intro", "type": "type", "bg": "dark", "vo": "Seguro te pasa esto.", "show": "Seguro te pasa esto..." },
+    { "b": "intro", "type": "pain", "bg": "dark", "vo": "Mensajes que se acumulan mientras atendés el local.", "show": "Mensajes que se [acumulan].", "mock": "notifs",
+      "items": [["WhatsApp", "¿Tienen talle M?"], ["Instagram", "¿Hacen envíos?"], ["WhatsApp", "¿Precio del combo?"], ["Mail", "Consulta por mayorista"], ["WhatsApp", "¿Abren el sábado?"], ["Instagram", "¿Sigue disponible?"], ["Teléfono", "Llamada perdida"], ["WhatsApp", "Hola?"], ["Mail", "Pedido sin confirmar"]] },
+    { "b": "intro", "type": "stats", "bg": "light", "vo": "Trabajamos con más de ochenta comercios en los últimos dos años.", "items": [["+80", "comercios"], ["2", "años"]] },
+    { "b": "metodo", "type": "section", "bg": "dark", "vo": "Primero, qué es.", "show": "¿Qué [es]?", "n": "1" },
+    { "b": "metodo", "type": "reveal", "bg": "glow", "vo": "Lo llamamos Tu oferta. Un servicio de treinta días.", "sub": "Servicio de 30 días" },
+    { "b": "metodo", "type": "chips", "bg": "light", "vo": "Ordenamos las consultas, armamos las respuestas y medimos los resultados.", "items": ["Ordenar", "→", "Responder", "→", "Medir"], "lit": [0.05, 0.3, 0.3, 0.65, 0.65] },
+    { "b": "dudas", "type": "section", "bg": "dark", "vo": "Tercero, tus dudas.", "show": "Tus [dudas].", "n": "3" },
+    { "b": "dudas", "type": "compare", "bg": "light", "vo": "La diferencia con hacerlo por tu cuenta está en el tiempo, la calidad y el seguimiento.",
+      "rows": [["Tiempo", "Horas por día", "Minutos"], ["Calidad", "Depende de quién atienda", "Siempre igual"], ["Seguimiento", "Se pierde", "Queda registrado"]] },
+    { "b": "cta", "type": "section", "bg": "dark", "vo": "Entonces, cómo empezar.", "show": "Cómo [empezar].", "n": "4" },
+    { "b": "cta", "type": "cta", "bg": "glow", "vo": "Tocá el botón de acá abajo y elegí un horario para charlar.", "show": "Reservá tu llamada", "sub": "tumarca.com" },
+    { "b": "cta", "type": "text", "bg": "dark", "vo": "Nos vemos en la llamada.", "show": "Nos vemos en la [llamada].", "hold": 2, "end": true }
+  ]
+}
